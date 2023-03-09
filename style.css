@@ -2,26 +2,49 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
-    text-align: center;
-    font-size: 40px;
-}
-
-.sgfoodpic {
+.sgfoodpic,
+.recipespic {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+h1,
+h3,
+h4 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
 h3 {
     font-size: 24px;
-    text-align: center;
     background-color: palevioletred;
     color: white;
 }
 
-ul {
-    text-align: center;
-    list-style-position: inside;
+h4 {
+    font-size: 20px;
+}
+
+h5 {
     font-size: 18px;
+}
+
+div.container {
+    text-align: center;
+}
+
+div.container ul {
+    display: inline-block;
+    text-align: center;
+}
+
+#recipe-container {
+    width: 1000px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
